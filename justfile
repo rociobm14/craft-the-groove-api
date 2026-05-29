@@ -6,9 +6,10 @@ default:
 run:
     poetry run uvicorn app.main:app --reload --port 8000
 
-# Install dependencies
+# Install dependencies and pre-commit hooks
 install:
     poetry install
+    poetry run pre-commit install
 
 # Format and fix everything
 fix:

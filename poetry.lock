@@ -1112,5 +1112,5 @@ typing-extensions = {version = ">=4.13.2", markers = "python_version < \"3.11\""
 
 [metadata]
 lock-version = "2.1"
-python-versions = "^3.10"
-content-hash = "1b11dd30e240f82b79d53e812fa1c07c0d4b72754e96ea3a4071d811375bb955"
+python-versions = ">=3.10"
+content-hash = "f03585dd8b6723cb6ee7767631ec4f0c62a04e4c25c75ee43c52f3cd33e7b775"
